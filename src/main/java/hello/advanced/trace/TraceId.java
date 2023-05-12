@@ -28,14 +28,14 @@ public class TraceId {
     /**
      * 트랜잭션ID는 똑같고 로그의 Depth를 늘린다.
      */
-    private TraceId createNextId() {
+    public TraceId createNextId() {
         return new TraceId(id, level + 1);
     }
 
     /**
      * 트랜잭션ID는 똑같고 로그의 Depth를 줄인다.
      */
-    private TraceId createPreviousId() {
+    public TraceId createPreviousId() {
         return new TraceId(id, level - 1);
     }
 
