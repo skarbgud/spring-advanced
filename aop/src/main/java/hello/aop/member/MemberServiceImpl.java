@@ -1,7 +1,7 @@
-package hello.aop.order.aop.member;
+package hello.aop.member;
 
-import hello.aop.order.aop.member.anotation.ClassApp;
-import hello.aop.order.aop.member.anotation.MethodAop;
+import hello.aop.member.anotation.ClassApp;
+import hello.aop.member.anotation.MethodAop;
 import org.springframework.stereotype.Component;
 
 @ClassApp
